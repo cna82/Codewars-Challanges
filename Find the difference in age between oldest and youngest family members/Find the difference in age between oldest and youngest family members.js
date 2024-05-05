@@ -14,11 +14,9 @@ function differenceInAges2(ages) {
   let max = Math.max(...ages),
     min = Math.min(...ages);
   diff = max - min;
-
   return [min, max, diff];
 }
-console.log(Math.min(...[5, 10, 15, 25, 100]));
-console.log(Math.max(...[5, 10, 15, 25, 100]));
+
 // Option 3
 function differenceInAges3(ages) {
   let youngest = Math.min(...ages);
