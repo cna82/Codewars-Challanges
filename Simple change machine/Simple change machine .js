@@ -1,0 +1,30 @@
+/* function attendance(list) {
+  let count = 0;
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] === true) {
+      count++;
+    }
+  }
+  return count;
+}
+ */
+
+
+/* simple change machine code wars
+ */
+function changeMe(moneyIn) {
+  switch (moneyIn) {
+    case "£5":
+      return "20p ".repeat(25).trim();
+    case "£2":
+      return "20p ".repeat(10).trim();
+    case "£1":
+      return "20p ".repeat(5).trim();
+    case "50p":
+      return "20p 20p 10p";
+    case "20p":
+      return "10p 10p";
+    default:
+      return moneyIn;
+  }
+}
