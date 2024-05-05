@@ -11,6 +11,3 @@ function evenOrOdd2(number) {
   return number % 2 === 0 ? "Even" : "Odd";
 }
 
-let number = prompt("enter a number");
-let oddOrEven = number % 2 === 0 ? "even" : "odd";
-alert(oddOrEven);
